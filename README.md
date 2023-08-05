@@ -1,1 +1,1 @@
-# emmanuel-tailwindcss-mini-project
+# tail-land
