@@ -11,35 +11,39 @@
 <!-- Before continuing, CDN was used... CLI is not responding well... -->
 <body class="bg-slate-300 font-sans">
     <!-- Section 1... -->
-    <div class="bg-slate-950 w-full min-h-screen m-auto relative truncate">
-        <nav class="text-white w-full m-auto bg-grad top-0 left-0 py-4 flex items-center justify-between" style>
+    <header class="bg-slate-950 w-full min-h-screen m-auto relative truncate">
+        <nav class="text-white w-full m-auto py-4 flex items-center justify-between max-md:flex-col">
             <a href="#" class="mx-28"><img src="UBAU.png" alt="logo" width="100px"></a>
 
             <!-- It didn't show bullet points here and it didn't appear in a link way... -->
-            <ul class="text-base tracking-wider py-3 mx-28 flex gap-10">
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">Home</a></li>
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">About</a></li>
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">Service</a></li>
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">Works</a></li> 
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">Blog</a></li>
-                <li><a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-bold">Contact</a></li>
+            <ul class="text-base tracking-wider mx-28 flex">
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">Home</a></li>
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">About</a></li>
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">Service</a></li>
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">Works</a></li> 
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">Blog</a></li>
+                <li><a href="#" class="px-4 hover:underline hover:underline-offset-4 hover:decoration-orange-700 hover:decoration-2 duration-500 hover:font-extrabold">Contact</a></li>
             </ul>
 
             <!-- Another note - Since this tag is a button, why isn't it displaying as one... -->
-            <button class="text-white font-medium rounded-3xl border border-white border-solid hover:border-none hover:bg-orange-700 hover:duration-500 px-4 py-2 mx-28">Sign In</button>
+            <button class="text-white font-medium rounded-3xl border border-white border-solid hover:border-none hover:bg-orange-700 hover:duration-500 px-4 py-2 mx-28 max-md:my-4">Sign In</button>
         </nav>
 
-        <div class="mt-20 mx-28 max-w-xl">
-            <h1 class="text-white font-semibold text-6xl leading-tight mb-4">Grow Your Business <br>With The Best <br>Solutions</h1>
-            <p class="text-white text-sm leading-7 tracking-wide">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas <br>deserunt laudantium numquam minus, officia doloribus alias neque. <br>Incidunt earum quasi sint labore magni ipsum.</p>
-            <button class="bg-orange-700 text-white font-medium hover:font-bold rounded-3xl px-5 py-2 mt-8">Contact Us</button>
+        <div class="flex items-center justify-between mt-20 max-md:flex-col max-md:mt-1">
+            <div class="mx-28 max-w-xl basis-1/2">
+                <h1 class="text-white font-semibold text-6xl leading-tight mb-4 max-md:text-4xl max-md:text-center max-md:leading-snug">Grow Your Business <br>With The Best <br>Solutions</h1>
+                <p class="text-white text-sm leading-7 tracking-wide max-md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quas <br>deserunt laudantium numquam minus, officia doloribus alias neque. <br>Incidunt earum quasi sint labore magni ipsum.</p>
+                <button class="bg-orange-700 text-white font-medium hover:font-bold rounded-3xl px-5 py-2 mt-8">Contact Us</button>
+            </div>
+            <div class="basis-1/2">
+                <img src="img1.png" alt="business" width="650px" class="absolute top-32 right-10 max-md:w-3/5">
+            </div>
         </div>
-        <img src="img1.png" alt="business" width="650px" class="absolute top-32 right-10">
-    </div>
+    </header>
 
 
     <!-- Our Services | Section 2... -->
-    <div class="w-10/12 m-auto text-left py-12">
+    <section class="w-10/12 m-auto text-left py-12">
         <h1 class="font-bold text-4xl text-slate-950 mt-7 text-center">Our Services</h1>
         <div class="mx-4 flex justify-between max-md:flex-col">
             <div class="basis-1/2 my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
@@ -67,11 +71,11 @@
                 <a href="#" class="text-xs font-bold underline underline-offset-2 pb-3 hover:font-extrabold">Read more</a>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- Those two | Section 3... -->
-    <div class="w-10/12 m-auto py-10">
+    <section class="w-10/12 m-auto py-10">
         <div class="flex justify-between mb-10 max-md:flex-col">
             <div class="basis-1/2">
                 <img src="emp.jpg" alt="guy" width="100%">
@@ -83,7 +87,7 @@
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem consequuntur, accusamus consectetur quisquam dolor provident blanditiis commodi, adipisci voluptate corrupti? Sequi, delectus quas numquam magni adipisci dolores facere autem?</p>
             </div>
         </div>
-        <hr class="w-full h-2">
+        <hr class="max-md:w-full max-md:h-1 max-md:bg-slate-950">
         <div class="flex justify-between mt-10 max-md:flex-col">
             <div class="basis-1/2 my-5 mx-3 py-8 px-1 max-w-xl">
                 <h1 class="font-bold text-4xl text-slate-950 text-left pb-3">One refreshingly easy solution <br>to grow</h1>
@@ -95,11 +99,11 @@
                 <img src="grow.jpg" alt="guy" width="600px">
             </div>
         </div>
-    </div>
+    </section>
 
     
     <!-- Grow ya business | Section 4... -->
-    <div class="w-10/12 m-auto text-center py-10">
+    <section class="w-10/12 m-auto text-center py-10">
         <h1 class="font-bold text-4xl mt-7 text-center">Grow your business <br>with expertise</h1>
         <div class="mx-4 my-2 flex justify-between max-md:flex-col">
             <div class="basis-1/2 my-4 mx-3 p-0 bg-slate-300 shadow-lg">
@@ -118,32 +122,32 @@
                 <p class="text-xs text-gray-600 leading-5 pb-3 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur vel, sapiente nobis hic obcaecati explicabo necessitatibus consectetur! Odit, quod.</p>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- Get started | Section 5... -->
-    <div class="w-10/12 m-auto text-center py-10">
+    <section class="w-10/12 m-auto text-center py-10">
         <h1 class="font-bold text-4xl mt-7 text-center">Get Started Today! It's Free</h1>
         <div class="mx-4 my-2 flex justify-center max-md:flex-col">
             <div class="my-4 mx-3 p-0 bg-slate-300">
                 <p class="text-xs text-gray-600 leading-5 pb-6 px-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio libero fugiat accusantium dolor maiores molestias. <br>Quam nihil maxime, quidem a cum dicta voluptas iure optio reprehenderit sed odit ducimus ipsum.</p>
                 <form action="#" method="post" class="w-full max-w-xl h-12 bg-slate-950 m-auto flex items-center rounded-3xl focus:bg-blue-600">
-                    <input type="email" placeholder="Email address" required class="text-white flex-1 text-xsm border-none outline-0 bg-transparent py-5 px-6 placeholder:sm:text-sm">
-                    <button type="submit" class="bg-white text-blue-950 font-bold rounded-3xl border-4 border-slate-950 p-0 w-24 h-12 max-md:text-sm">Send</button>
+                    <input type="email" placeholder="Email address" required class="text-white flex-1 text-sm border-none outline-0 bg-transparent py-5 px-6 placeholder:sm:text-sm">
+                    <button type="submit" class="bg-white text-slate-950 font-bold rounded-3xl border-4 border-slate-950 p-0 w-24 h-12 max-md:text-sm">Send</button>
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!-- Footer | Section 6... -->
-    <div class="bg-slate-950 w-full m-auto text-left py-2">
+    <footer class="bg-slate-950 w-full m-auto text-left py-2">
         <div class="w-10/12 m-auto pb-5 flex justify-between max-md:flex-col max-md:items-center max-md:text-center">
             <div class="basis-1/2 my-4 mx-5 p-0">
                 <a href="#"><img src="UBAU.png" alt="logo" width="100px"></a>
                 <p class="text-xs text-gray-200 leading-5 pb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Unde, cupiditate.</p>
                 <form action="#" method="post" class="w-full max-w-xl h-10 bg-white m-auto flex items-center rounded-3xl">
-                    <input type="email" placeholder="Email address" required class="text-blue-950 flex-1 text-xsm border-none outline-0 bg-transparent py-5 px-6 placeholder:sm:text-sm">
+                    <input type="email" placeholder="Email address" required class="text-blue-950 flex-1 text-sm border-none outline-0 bg-transparent py-5 px-6 placeholder:sm:text-sm">
                     <button type="submit" class="bg-slate-950 text-white font-bold rounded-3xl border-4 border-white p-0 w-24 h-10">Send</button>
                 </form>
             </div>
@@ -179,6 +183,6 @@
                 <p class="text-xs text-gray-200 leading-5 pb-3">Gmail</p>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
