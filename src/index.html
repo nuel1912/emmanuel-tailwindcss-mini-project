@@ -7,6 +7,11 @@
     <link href="/src/output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Tailwind Business</title>
+    <style>
+        body::-webkit-scrollbar {
+            width: 0;
+        }
+    </style>
 </head>
 <!-- Before continuing, CDN was used... CLI is not responding well... -->
 <body class="bg-slate-300 font-sans">
@@ -43,28 +48,28 @@
 
 
     <!-- Our Services | Section 2... -->
-    <section class="w-10/12 m-auto text-left py-12">
+    <section class="w-10/12 m-auto py-12">
         <h1 class="font-bold text-4xl text-slate-950 mt-7 text-center">Our Services</h1>
-        <div class="mx-4 flex justify-between max-md:flex-col">
-            <div class="basis-1/2 my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
+        <div class="mx-4 flex justify-between text-left max-md:flex-col">
+            <div class="my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
                 <img src="brain.png" alt="brain" width="35px" class="my-4">
                 <h3 class="font-bold text-xl tracking-wide my-2">Creative Concepting</h3>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit autem quidem sed aperiam distinctio quia quasi nulla dignissimos expedita nostrum!</p>
                 <a href="#" class="text-xs font-bold underline underline-offset-2 pb-3 hover:font-extrabold">Read more</a>
             </div>
-            <div class="basis-1/2 my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
+            <div class="my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
                 <img src="list.png" alt="list" width="35px" class="my-4">
                 <h3 class="font-bold text-xl tracking-wide my-2">Planning Work</h3>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda natus voluptatem eius, eum ipsa corporis libero placeat expedita aliquid! Est!</p>
                 <a href="#" class="text-xs font-bold underline underline-offset-2 pb-3 hover:font-extrabold">Read more</a>
             </div>
-            <div class="basis-1/2 my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
+            <div class="my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
                 <img src="buffer.png" alt="buffer" width="35px" class="my-4">
                 <h3 class="font-bold text-xl tracking-wide my-2">Our Promise</h3>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro saepe quaerat nisi commodi maxime quae inventore dolorem! Voluptates, ex.</p>
                 <a href="#" class="text-xs font-bold underline underline-offset-2 pb-3 hover:font-extrabold">Read more</a>
             </div>
-            <div class="basis-1/2 my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
+            <div class="my-4 mx-3 py-4 px-2 bg-slate-300 shadow">
                 <img src="medal.png" alt="medal" width="35px" class="my-4">
                 <h3 class="font-bold text-xl tracking-wide my-2">Employee Benefits</h3>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum aspernatur minima debitis obcaecati ipsum, voluptatibus optio quam quo ratione minus.</p>
@@ -77,10 +82,10 @@
     <!-- Those two | Section 3... -->
     <section class="w-10/12 m-auto py-10">
         <div class="flex justify-between mb-10 max-md:flex-col">
-            <div class="basis-1/2">
+            <div>
                 <img src="emp.jpg" alt="guy" width="100%">
             </div>
-            <div class="basis-1/2 my-5 mx-3 py-8 px-1 max-w-xl">
+            <div class="my-5 mx-3 py-8 px-1 max-w-xl">
                 <h1 class="font-bold text-4xl text-slate-950 text-left pb-3">Empowering your business with <br>best solution</h1>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laboriosam, rerum et dolore unde saepe? Atque dignissimos earum ut explicabo saepe fugiat non odio maxime voluptate? Dignissimos, provident ipsam aperiam iure architecto dicta quasi corrupti ex accusantium asperiores dolorum assumenda praesentium consectetur velit officiis reprehenderit non accusamus esse recusandae culpa! Quia a modi officia reprehenderit quo hic, blanditiis quas tempora dolor cumque eveniet fugiat, cupiditate necessitatibus! Autem tempora facere ea explicabo nisi fugit unde quibusdam, voluptatum dolorum quo, temporibus repudiandae molestiae et non deserunt suscipit labore culpa dolores. Iusto facere deserunt soluta omnis. Ipsa ea, sequi non perspiciatis adipisci impedit accusantium? Aperiam debitis, repellendus possimus porro, harum consequuntur quam placeat similique ipsum, iure sequi nemo. Enim totam est atque nulla nostrum velit quam cum sapiente, saepe sequi sunt dolor inventore laborum in alias pariatur nam quod quo omnis fugiat animi, excepturi sit. Enim id repellat architecto unde illo, quidem excepturi quaerat commodi, ipsa est soluta optio odio nihil, harum ullam quas vel! Quae dolorum illum nulla corrupti nobis earum totam impedit voluptatem soluta, quisquam dolores ullam modi, aliquam accusantium vero distinctio asperiores molestias quo qui perferendis sint, tempora magnam itaque! Laboriosam ipsum id architecto error, sequi quas vel necessitatibus blanditiis?</p>
                 
@@ -89,13 +94,13 @@
         </div>
         <hr class="max-md:w-full max-md:h-1 max-md:bg-slate-950">
         <div class="flex justify-between mt-10 max-md:flex-col">
-            <div class="basis-1/2 my-5 mx-3 py-8 px-1 max-w-xl">
+            <div class="my-5 mx-3 py-8 px-1 max-w-xl">
                 <h1 class="font-bold text-4xl text-slate-950 text-left pb-3">One refreshingly easy solution <br>to grow</h1>
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nulla expedita totam fugit voluptatum cum debitis ea sequi. Veritatis consequatur, iste libero facere, itaque eligendi ducimus sint, ea cum molestiae repellat doloremque. Aliquam iste tempore aliquid nisi ex culpa nemo non libero facere, magni repellat eius commodi voluptate nam deserunt suscipit ipsa fuga debitis, earum repudiandae! Repellat obcaecati eos minima dolorum impedit exercitationem quibusdam aliquid adipisci. Facilis ratione quaerat sint repellat, molestiae porro modi eum voluptas qui inventore nemo? Iure quaerat, tenetur repudiandae eaque nobis qui fugit animi commodi debitis veniam magni, pariatur assumenda, est modi ab nihil rem exercitationem? Doloribus, saepe fugiat tenetur sed officiis doloremque exercitationem blanditiis mollitia quasi laboriosam adipisci deserunt amet ab in itaque ducimus consectetur quos sapiente? Numquam obcaecati dolorem qui, error laborum suscipit quaerat fugiat soluta quae repudiandae veniam, quod iusto illo ut ea sint eligendi aliquam enim est ipsa reprehenderit consequatur. Suscipit qui placeat soluta esse similique veritatis, quae magni id eaque blanditiis fugiat mollitia iure, et ea impedit! Porro, dolore aspernatur sequi modi vero dolor perferendis reiciendis blanditiis, totam fugit ea dicta nemo delectus quasi eum minima animi a mollitia eaque impedit quam, dolores magnam? Facere ex officia impedit repellat voluptate maiores quidem minima esse adipisci, id natus atque at. Qui est quisquam pariatur omnis quo incidunt maiores illum, molestiae quae cumque provident culpa minus explicabo et praesentium dolores fugit eum? Inventore expedita ex consequuntur est doloremque sapiente at, placeat ratione quaerat iure cumque illum. Natus, nemo iure doloribus vitae perferendis excepturi.</p>
                 
                 <p class="text-xs text-gray-600 leading-5 tracking-wide pb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, hic. Velit nisi animi voluptate porro vel, deleniti aliquam optio deserunt tempore assumenda alias magni expedita tenetur quis repellendus reprehenderit aliquid nam. Consectetur ut rem quis enim? Nesciunt tenetur rerum aliquam!</p>
             </div>
-            <div class="basis-1/2">
+            <div>
                 <img src="grow.jpg" alt="guy" width="600px">
             </div>
         </div>
@@ -106,17 +111,17 @@
     <section class="w-10/12 m-auto text-center py-10">
         <h1 class="font-bold text-4xl mt-7 text-center">Grow your business <br>with expertise</h1>
         <div class="mx-4 my-2 flex justify-between max-md:flex-col">
-            <div class="basis-1/2 my-4 mx-3 p-0 bg-slate-300 shadow-lg">
+            <div class="my-4 mx-3 p-0 bg-slate-300 shadow-lg">
                 <img src="pic3.jpg" alt="pic3">
                 <h4 class="font-medium text-lg tracking-wide mt-4 mb-2">Tsabalala Kuti</h4>
                 <p class="text-xs text-gray-600 leading-5 pb-6 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur vel, sapiente nobis hic obcaecati explicabo necessitatibus consectetur! Odit, quod.</p>
             </div>
-            <div class="basis-1/2 my-4 mx-3 p-0 bg-slate-300 shadow-lg">
+            <div class="my-4 mx-3 p-0 bg-slate-300 shadow-lg">
                 <img src="pic1.jpg" alt="pic1">
                 <h4 class="font-medium text-lg tracking-wide mt-4 mb-2">Alessa Morgan</h4>
                 <p class="text-xs text-gray-600 leading-5 pb-3 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur vel, sapiente nobis hic obcaecati explicabo necessitatibus consectetur! Odit, quod.</p>
             </div>
-            <div class="basis-1/2 my-4 mx-3 p-0 bg-slate-300 shadow-lg">
+            <div class="my-4 mx-3 p-0 bg-slate-300 shadow-lg">
                 <img src="pic2.jpg" alt="pic2">
                 <h4 class="font-medium text-lg tracking-wide mt-4 mb-2">Kingsley Sturridge</h4>
                 <p class="text-xs text-gray-600 leading-5 pb-3 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aspernatur vel, sapiente nobis hic obcaecati explicabo necessitatibus consectetur! Odit, quod.</p>
@@ -143,7 +148,7 @@
     <!-- Footer | Section 6... -->
     <footer class="bg-slate-950 w-full m-auto text-left py-2">
         <div class="w-10/12 m-auto pb-5 flex justify-between max-md:flex-col max-md:items-center max-md:text-center">
-            <div class="basis-1/2 my-4 mx-5 p-0">
+            <div class="my-4 mx-5 p-0">
                 <a href="#"><img src="UBAU.png" alt="logo" width="100px"></a>
                 <p class="text-xs text-gray-200 leading-5 pb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Unde, cupiditate.</p>
                 <form action="#" method="post" class="w-full max-w-xl h-10 bg-white m-auto flex items-center rounded-3xl">
@@ -151,7 +156,7 @@
                     <button type="submit" class="bg-slate-950 text-white font-bold rounded-3xl border-4 border-white p-0 w-24 h-10">Send</button>
                 </form>
             </div>
-            <div class="basis-1/2 my-4 mx-5 p-0">
+            <div class="my-4 mx-5 p-0">
                 <h4 class="font-medium text-xl text-white tracking-wide mt-2 mb-5">Company</h4>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Crypto widgets</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Crypto currency</p>
@@ -159,7 +164,7 @@
                 <p class="text-xs text-gray-200 leading-5 pb-3">Contact us</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Service</p>
             </div>
-            <div class="basis-1/2 my-4 mx-5 p-0">
+            <div class="my-4 mx-5 p-0">
                 <h4 class="font-medium text-xl text-white tracking-wide mt-2 mb-5">Navigate</h4>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Roadmap</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Video</p>
@@ -167,7 +172,7 @@
                 <p class="text-xs text-gray-200 leading-5 pb-3">Coin distribution</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Media</p>
             </div>
-            <div class="basis-1/2 my-4 mx-5 p-0">
+            <div class="my-4 mx-5 p-0">
                 <h4 class="font-medium text-xl text-white tracking-wide mt-2 mb-5">Products</h4>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Hardware</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Mining</p>
@@ -175,7 +180,7 @@
                 <p class="text-xs text-gray-200 leading-5 pb-3">Software</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Media</p>
             </div>
-            <div class="basis-1/2 my-4 mx-5 p-0">
+            <div class="my-4 mx-5 p-0">
                 <h4 class="font-medium text-xl text-white tracking-wide mt-2 mb-5">Contact us</h4>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Crypto Mailing address</p>
                 <p class="text-xs text-gray-200 leading-5 pb-3">Suite 1100</p>
